@@ -36,6 +36,7 @@ def main():
 		sendCommand('\x1A')	#sending CTRL-Z
 							#https://en.wikipedia.org/wiki/ASCII
 		ser.close()
+	print ("SMS sent?")
 
 if __name__ == "__main__":
 	try:
